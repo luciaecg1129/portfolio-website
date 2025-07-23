@@ -1,0 +1,42 @@
+---
+title: "Lucia Ceron - MBA Portfolio"
+image: profile.png
+about:
+  id: lucia-ceron
+  template: marquee
+  image-width: 10em
+  image-shape: round
+  # links:
+  #   - icon: linkedin
+  #     text: "LinkedIn"
+  #     url: "https://www.linkedin.com/in/lucia-ceron-b06749317/"
+  #   - icon: github
+  #     text: "GitHub"
+  #     url: "https://github.com/luciaecg1129"
+---
+
+
+
+## Hello! I’m Lucia Ceron {#about}
+
+{{< include about.qmd >}}
+
+## Education {#education}
+
+{{< include Education.qmd >}}
+
+## Professional Experience {#experience}
+
+{{< include experience.qmd >}}
+
+## Skills & Strengths {#skills}
+
+{{< include Skills.qmd >}}
+
+## Projects {#interests}
+
+{{< include Interests.qmd >}}
+
+## Contact me {#contactme}
+
+{{< include contactme.qmd >}}

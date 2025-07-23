@@ -1,0 +1,20 @@
+---
+format: html
+---
+
+
+Welcome to my portfolio website, a space where I share a little about myself and my background in technology, business, and healthcare.
+I am an MBA student at University Canada West in Canada, originally from Colombia. My academic background combines a Bachelor’s degree in Biomedical Engineering with a postgraduate specialization in Marketing, creating a strong foundation in both technology and business.
+
+After graduating, I participated in a cultural exchange program in the United States, an experience that enhanced my adaptability, independence, and communication skills. I then worked in Colombian clinics as a Biomedical Engineer, followed by over four years as a biomedical product engineer in the southwestern region of Colombia, specializing in commercial operations for advanced medical equipment.
+
+Currently, while pursuing my MBA, I am further strengthening my skills in:
+
+- **Leadership**
+- **Business Strategy**
+- **Data Analysis**
+- **Applied Data Science**
+
+I am passionate about continuously learning, turning innovative ideas into action, and leading diverse teams with purpose. My goal is to integrate technology, marketing, and analytics to address real-world challenges in the technology and healthcare industries.
+
+Feel free to explore the rest of my site to learn more about my education, experience, skills, and projects.

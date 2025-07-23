@@ -1,0 +1,22 @@
+# _brand.yml
+color:
+  palette:
+    cream:        "#FFF7E6"   # page background
+    ink:          "#0E1A24"   # primary text
+    light-ink:    "#1F2E3A"   # code / subtle panels
+    green:       "#729572"   # site accent (buttons, links, icons)
+    raspberry:    "#E84E7B"   # slightly darker pink – just for navbar
+  foreground: ink
+  background: cream
+  primary:   green         # Quarto “brand” color
+
+typography:
+  fonts:
+    - family: Poppins         # friendly, modern
+      source: google
+    - family: Montserrat      # clean body copy
+      source: google
+  base:     Montserrat
+  headings: Poppins
+  link:
+    color: green               # inline link color

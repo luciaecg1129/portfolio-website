@@ -1,0 +1,31 @@
+### **Business Analytics (2024)**  
+**Tools:** Tableau, SQL  
+
+- **Airbnb NYC Analysis:** Insights into rental patterns, pricing, and host performance across New York City.  
+- 🔗 [View project](https://github.com/luciaecg1129/tableau-business-analytics/)
+
+---
+
+### **E-commerce & SEO (2025)**  
+**Tools:** Shopify, SEO  
+
+- Created and optimized an online store for fermented culture products.  
+- Implemented keyword strategies and product tagging for better organic reach.  
+🔗 [View project](https://the-culture-hero.myshopify.com/collections/buy-fermentation-starter-cultures)
+> To access the store, use the password: **perla**.
+
+---
+
+### **Cloud Computing Portfolio (2025)**  
+**Tools:** AWS, GitHub Pages ,SQL 
+
+- Built and deployed a professional data analyst portfolio using AWS services.  
+🔗 [View portfolio](https://luciaecg1129.github.io/data-analyst-lucia/)
+
+---
+
+### **Biomedical Image Processing (2015)**  
+**Tools:** MATLAB, medical imaging (CT scans)  
+
+- Developed an algorithm for segmentation and volumetric quantification of liver tissue to assess organ donor suitability.  
+- Presented at a national research symposium (COLSI).

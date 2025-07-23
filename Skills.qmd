@@ -1,0 +1,24 @@
+---
+format: html
+---
+
+The world of technology, data, and marketing is constantly evolving, and I am passionate about staying current, experimenting with new tools, and combining technical capabilities with strategic vision. These are some of the skills I have developed and continue to strengthen:
+
+
+### Technical Skills
+
+- **Programming & Simulation:** MATLAB, JavaScript  
+- **Design & Engineering:** SolidWorks  
+- **Databases:** SQL  
+- **Data Analysis & Visualization:** Tableau, Power BI, Excel (advanced functions, dashboards, pivot tables)   
+- **Cloud Technologies:** AWS (Cloud Computing)
+- **E-commerce Platforms:** Shopify (store setup, SEO, product management)  
+
+
+### Professional Strengths
+- **Leadership:** Natural ability to lead, guide, and motivate multidisciplinary teams toward common goals  
+- **Analytical Thinking:** Strong capacity to break down complex problems and make data-driven decisions  
+- **Adaptability:** Experience working in diverse environments — from hospitals in Colombia to academic and cultural settings in the U.S. and Canada  
+- **Effective Communication:** Skilled in translating technical concepts into clear value propositions for diverse audiences  
+- **Strategic Vision:** Combining business education (Marketing + MBA) with technical expertise to design impactful solutions  
+- **Lifelong Learning Mindset:** Passion for staying current, experimenting with new tools, and integrating data science into business and healthcare decision-making

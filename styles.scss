@@ -1,0 +1,66 @@
+/* styles.scss  – tiny navbar touch‑ups */
+.navbar {
+  /* gentle left‑to‑right tint; comment out if you’d rather keep it solid */
+  background: linear-gradient(90deg, #70896e 0%, #729572 100%) !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .08);  /* soft lift */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  font-weight: 600;
+  letter-spacing: .5px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  border-bottom: 2px solid #FFF7E6;           /* subtle active cue */
+}
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 0;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: #eee5d3;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 12px;
+  background-color: #70896e;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+// .contact-form button:hover {
+//   background-color: #70896e;
+// }
+
+.social-links a img {
+  margin-right: 10px;
+  // filter: invert(1);
+}
+

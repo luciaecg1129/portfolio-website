@@ -1,0 +1,34 @@
+project:
+  type: website
+
+website:
+  title: "Lucia Ceron - MBA Portfolio"
+  navbar:
+    left:
+      - href: index.qmd#about
+        text: About me
+      - href: index.qmd#education
+        text: Education
+      - href: index.qmd#experience
+        text: Professional Experience
+      - href: index.qmd#skills
+        text: Skills & Strengths
+      - href: index.qmd#interests
+        text: Projects
+      - href: index.qmd#contactme
+        text: Contact me
+    style:   "sticky"            # stays at the top when you scroll
+    background: "#E84E7B"      # name taken from the palette above
+    foreground: "#FFF7E6"          # good contrast for text/icons
+    collapse: true               # gives you the hamburger on mobile
+    search:   false
+
+format:
+  html:
+    # theme: cosmo
+    # theme:
+    #   light: [litera, brand]
+    css: styles.scss
+    toc: true
+
+    
