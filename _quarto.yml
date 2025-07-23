@@ -18,7 +18,7 @@ website:
       - href: index.qmd#contactme
         text: Contact me
     style:   "sticky"            # stays at the top when you scroll
-    background: "#E84E7B"      # name taken from the palette above
+    background: "#729572"      # name taken from the palette above
     foreground: "#FFF7E6"          # good contrast for text/icons
     collapse: true               # gives you the hamburger on mobile
     search:   false
@@ -28,7 +28,7 @@ format:
     # theme: cosmo
     # theme:
     #   light: [litera, brand]
-    css: styles.scss
+    css: styles.css
     toc: true
 
     
