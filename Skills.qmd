@@ -13,12 +13,16 @@ The world of technology, data, and marketing is constantly evolving, and I am pa
 - **Data Analysis & Visualization:** Tableau, Power BI, Excel (advanced functions, dashboards, pivot tables)   
 - **Cloud Technologies:** AWS (Cloud Computing)
 - **E-commerce Platforms:** Shopify (store setup, SEO, product management)  
+- **Languages:**  
+- Spanish – Native  
+- English – Professional working proficiency  
+- German – Basic knowledge (A1)
 
 
 ### Professional Strengths
 - **Leadership:** Natural ability to lead, guide, and motivate multidisciplinary teams toward common goals  
 - **Analytical Thinking:** Strong capacity to break down complex problems and make data-driven decisions  
-- **Adaptability:** Experience working in diverse environments — from hospitals in Colombia to academic and cultural settings in the U.S. and Canada  
+- **Adaptability:** Experience working in diverse environments, from hospitals in Colombia to academic and cultural settings in the U.S. and Canada  
 - **Effective Communication:** Skilled in translating technical concepts into clear value propositions for diverse audiences  
-- **Strategic Vision:** Combining business education (Marketing + MBA) with technical expertise to design impactful solutions  
+- **Strategic Vision:** Combining business education (Marketing + MBA) with technical expertise (engineering) to design impactful solutions  
 - **Lifelong Learning Mindset:** Passion for staying current, experimenting with new tools, and integrating data science into business and healthcare decision-making
