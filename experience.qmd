@@ -1,12 +1,21 @@
 ---
 format: html
+toc: true
+toc-location: left
+title: "Experience"
+---
+
+Download my detailed resume in PDF format: [Download PDF](Lucia-Ceron-Resume.pdf){.download-btn target="_blank"}
+
 ---
 
 ### Medical Product Engineer Specialist  
-**Instrumentación S.A. - Colombia**  
+**[Instrumentación S.A.](https://www.instrumentacion.com.co/) - Colombia**  
 *Aug. 2019 - Jun. 2024*
 
 Responsible for the commercial area for southwestern Colombia, focused on specialized biomedical devices.
+
+![](work.png){fig-alt="Imagen representativa del trabajo en instrumentación biomédica" width="400px" style="display:block; margin:auto;"}
 
 **Accomplishments and key functions:**
 
@@ -34,7 +43,7 @@ In charge of administrative and technical management of medical equipment in cli
 ---
 
 ### Fellow in Biomedical Engineering  
-**Hospital Universitario del Valle “Evaristo García” - Colombia**  
+**[Hospital Universitario del Valle “Evaristo García”](http://www.huv.gov.co/) - Colombia**  
 *Jul. 2015 - Sep. 2016*
 
 Experience in radiotherapy and hospital technology management.
@@ -47,8 +56,8 @@ Experience in radiotherapy and hospital technology management.
 
 ---
 
-### Cultural Exchange - Au Pair  
-**Philadelphia, USA**  
+### Cultural Exchange 
+**[Cultural Care](https://www.culturalcare.world/) - Philadelphia, USA**  
 *Oct. 2016 - Oct. 2017*
 
 Participation in a cultural exchange program in the United States.
@@ -59,4 +68,3 @@ Participation in a cultural exchange program in the United States.
 - Adaptability in multicultural environments.  
 - Independence and problem solving in new contexts.
 
----

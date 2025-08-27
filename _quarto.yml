@@ -5,30 +5,54 @@ website:
   title: "Lucia Ceron - MBA Portfolio"
   navbar:
     left:
-      - href: index.qmd#about
-        text: About me
-      - href: index.qmd#education
+      - href: about.qmd
+        text: About
+      - href: Education.qmd
         text: Education
-      - href: index.qmd#experience
-        text: Professional Experience
-      - href: index.qmd#skills
-        text: Skills & Strengths
-      - href: index.qmd#interests
+      - href: experience.qmd
+        text: Experience
+      - href: Skills.qmd
+        text: Skills
+      - href: Interests.qmd
         text: Projects
-      - href: index.qmd#contactme
-        text: Contact me
+      - href: Leadership.qmd
+        text: Leadership Experience
+      - href: CV.qmd
+        text: CV
+      - href: contactme.qmd
+        text: Contact Me
     style:   "sticky"            # stays at the top when you scroll
     background: "#729572"      # name taken from the palette above
     foreground: "#FFF7E6"          # good contrast for text/icons
     collapse: true               # gives you the hamburger on mobile
     search:   false
+  page-footer:  
+    left: >-
+     &#169; 2025 Lucia Ceron &#8729; Made with [Quarto](https://quarto.org)
+    center: |
+     
+      <a class="link-dark me-1" href="https://www.linkedin.com/feed/" title="LinkedIn" target="_blank" rel="noopener">{{< fa brands linkedin >}}</a>
+      <a class="link-dark me-1" href="https://github.com/luciaecg1129" title="github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
+      
+    right: 
 
+      - text: "Contact"
+        aria-label: "Contact Form"
+        href: "contactme.qmd"
 format:
   html:
     # theme: cosmo
     # theme:
     #   light: [litera, brand]
     css: styles.css
-    toc: true
+    # toc: true
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: false
+    include-in-header: "header.html"
+
+resources:
+  - Lucia-Ceron-Resume.pdf
 
     

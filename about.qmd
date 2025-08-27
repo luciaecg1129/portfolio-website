@@ -1,21 +1,61 @@
 ---
 format: html
+toc: true
+toc-location: left
+title: "About Me"
 ---
 
 
-Welcome to my portfolio website, here I want to share a little bit about me and my background in technology, business, and healthcare.
-I am an MBA student at University Canada West in Canada, originally from Colombia. My academic background combines a Bachelor’s degree in Biomedical Engineering with a postgraduate specialization in Marketing.
+::: {.grid}
 
-After graduating, I participated in a cultural exchange program in the United States, an experience that enhanced my adaptability, independence, and communication skills. I then worked in Colombian clinics and hospitals as a Biomedical Engineer, followed by over four years as a biomedical product engineer in the southwestern region of Colombia, specializing in commercial operations for specialized medical equipment.
+::: {.g-col-6 #about-me-1}
 
-Currently, while pursuing my MBA, I am further strengthening my skills in:
+**Biomedical engineer and MBA student with a passion for technology and healthcare.**
 
-- **Leadership**
-- **Business Strategy**
-- **Data Analysis**
-- **Marketing**
-- **E-Commerce**
+Originally from Colombia and now based in Canada, I combine a background in Biomedical Engineering and Marketing with ongoing studies in Business Administration. I have experience working in clinics, hospitals, and leading technical sales and projects for specialized medical devices.
 
-I am passionate about continuously learning, turning innovative ideas into action, and leading diverse teams with purpose and creativity. My goal is to integrate technology, marketing, and analytics to address real-world challenges in either the technology or healthcare industries.
+<ul class="fa-ul">
+   <li><span class="fa-li"><i class="fa-solid fa-certificate"></i></span>MBA – [University Canada West](https://www.ucanwest.ca/) (2024–2025)</li>
+   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>Postgraduate Diploma in Marketing – [Universidad Autónoma de Occidente](https://www.uao.edu.co/) (2021–2022)</li>
+</ul>
 
-Feel free to explore the rest of my website to learn more about me. Please reach out if you would like to connect!
+:::
+
+::: {.g-col-6 #about-me-2}
+
+I enjoy working in multicultural environments and integrating analytics and strategy to solve real-world challenges. My career reflects adaptability, leadership, and a focus on results.
+
+<ul class="fa-ul">
+   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>B.S. Biomedical Engineering – UA0 (2011–2016)</li>
+   <li><span class="fa-li"><i class="fa-solid fa-briefcase"></i></span>Biomedical Product Engineer – Instrumentación S.A. (2019–2024)</li>
+   <li><span class="fa-li"><i class="fa-solid fa-briefcase"></i></span>Biomedical Engineer – Bioengineering L.A. (2018–2019)</li>
+</ul>
+
+:::
+
+:::
+
+
+## Latest Projects
+
+<div class="project-cards">
+
+<div class="card">
+<h3>Business Analytics (2024)</h3>
+<p>Analyzed Airbnb NYC data using Tableau and SQL to uncover patterns in rental pricing and host performance.</p>
+<a href="Interests.html#business-analytics" class="card-link">Learn more</a>
+</div>
+
+<div class="card">
+<h3>E-commerce & SEO (2025)</h3>
+<p>Developed an online store for fermented products on Shopify, implementing SEO strategies to improve visibility.</p>
+<a href="Interests.html#ecommerce" class="card-link">Learn more</a>
+</div>
+
+<div class="card">
+<h3>Cloud Computing Portfolio (2025)</h3>
+<p>Built and deployed a professional data analyst portfolio using AWS services and GitHub Pages.</p>
+<a href="Interests.html#cloud-computing" class="card-link">Learn more</a>
+</div>
+
+</div>

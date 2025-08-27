@@ -3,40 +3,30 @@ title: "Lucia Ceron - MBA Portfolio"
 image: profile.png
 about:
   id: lucia-ceron
-  template: marquee
-  image-width: 10em
+  template: trestles
+  image-width: 15em
   image-shape: round
-  # links:
-  #   - icon: linkedin
-  #     text: "LinkedIn"
-  #     url: "https://www.linkedin.com/in/lucia-ceron-b06749317/"
-  #   - icon: github
-  #     text: "GitHub"
-  #     url: "https://github.com/luciaecg1129"
+  links:
+    - icon: linkedin
+      text: "LinkedIn"
+      url: "https://www.linkedin.com/in/lucia-ceron-b06749317/"
+    - icon: github
+      text: "GitHub"
+      url: "https://github.com/luciaecg1129"
 ---
 
+---
+format: html
+---
+# Hey, I’m happy you’re here
+<div style="max-width:720px; margin:0 auto;">
 
+### Thanks for stopping by!
 
-## Hello! I’m Lucia Ceron {#about}
+<p>
+I blend marketing and engineering to turn data into results. Explore my work and see what we could build together.
+</p>
 
-{{< include about.qmd >}}
+Take a look at some of my [projects](Interests.qmd).
 
-## Education {#education}
-
-{{< include Education.qmd >}}
-
-## Professional Experience {#experience}
-
-{{< include experience.qmd >}}
-
-## Skills & Strengths {#skills}
-
-{{< include Skills.qmd >}}
-
-## Projects {#interests}
-
-{{< include Interests.qmd >}}
-
-## Contact me {#contactme}
-
-{{< include contactme.qmd >}}
+Get in touch by [Sending me a note](contactme.qmd) {{< fa paper-plane >}}

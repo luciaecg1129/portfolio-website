@@ -1,0 +1,31 @@
+  
+---
+format: html
+toc: true
+toc-location: left
+---
+## Leadership & Community Service  
+
+Beyond academics and professional projects, I have been committed to initiatives that combine leadership, logistics, and social impact. These experiences shaped my ability to lead under pressure and serve my community.
+
+---
+
+### **Pandemic Response: Ventilator Deployment (2020)**  
+
+During the COVID-19 pandemic, I led a team of engineers to coordinate, train, and oversee the installation of approximately 300 mechanical ventilators across hospitals in multiple regions of Colombia. As the project lead, I managed planning, resource allocation, and on-site execution, ensuring that life-saving equipment reached medical teams quickly and effectively .
+
+Figure 1: Ventilator Deployment Project During COVID-19
+::: {#fig-ventilators}
+{{< video https://www.youtube.com/embed/2nVP1ckKF_0 >}}
+
+_Note: The video "Ventilator Deployment Project During COVID-19" (InformativoSinCensura Popayán, 2020)_
+
+---
+
+### Community Health Brigades and Social Support  
+
+In my hometown, I actively participated in community service through my school, a local convent-run institution. Working with classmates and mentors, we organized health brigades, food and household supply drives, and visits to vulnerable families, delivering essential resources to those most in need.
+
+![Community service activities](brigade.png){fig-alt="Group of volunteers and community members participating in health brigades and aid distribution." fig-cap="Community service activities carried out through school-organized brigades." width="400px" style="display:block; margin:auto;"}
+
+*Note. Adapted from Prezi presentation **Laicos Misioneros San José de Tarbes**. Retrieved from [https://prezi.com/cq4ntvd2u4xr/laicos-misioneros-san-jose-de-tarbes/](https://prezi.com/cq4ntvd2u4xr/laicos-misioneros-san-jose-de-tarbes/).*

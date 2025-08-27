@@ -1,28 +1,44 @@
 ---
 format: html
+toc: true
+title: "Skills & Strengths"
+toc-location: left
 ---
 
 The world of technology, data, and marketing is constantly evolving, and I am passionate about staying current, experimenting with new tools, and combining technical capabilities with strategic vision. These are some of the skills I have developed and continue to strengthen:
 
+---
+
 
 ### Technical Skills
+| Category                      | Tools & Platforms |
+|-------------------------------|-------------------|
+| **Programming & Simulation**  | MATLAB <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" width="22" alt="MATLAB logo">, JavaScript <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="22" alt="JavaScript logo"> |
+| **Design & Engineering**      | SolidWorks <img src="https://www.pugetsystems.com/wp-content/uploads/2022/08/SOLIDWORKS-Logo.png" width="22" alt="SolidWorks logo"> |
+| **Databases**                  | SQL <img src="https://e7.pngegg.com/pngimages/1019/294/png-clipart-microsoft-sql-server-stored-procedure-table-query-language-table-angle-furniture.png" width="18" alt="SQL logo"> |
+| **Data Analysis & Visualization** | Tableau <img src="https://img.icons8.com/color/512/tableau-software.png" height="18" alt="Tableau logo" style="vertical-align:text-bottom">, Power BI <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" height="18" alt="Power BI logo" style="vertical-align:text-bottom">, Excel <img src="https://www.citypng.com/public/uploads/preview/hd-microsoft-excel-logo-transparent-png-701751694777434h7pkvogbjk.png" height="18" alt="Excel logo" style="vertical-align:text-bottom"><br><small>(advanced functions, dashboards, pivot tables)</small> |
+| **Cloud Technologies**         | AWS (Cloud Computing) <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" width="30" alt="AWS logo"> |
+| **E-commerce Platforms**       | Shopify <img src="https://www.citypng.com/public/uploads/preview/shopify-bag-icon-symbol-logo-701751695132537nenecmhs0u.png" width="22" alt="Shopify logo"> (store setup, SEO, product management) |
 
-- **Programming & Simulation:** MATLAB, JavaScript  
-- **Design & Engineering:** SolidWorks  
-- **Databases:** SQL  
-- **Data Analysis & Visualization:** Tableau, Power BI, Excel (advanced functions, dashboards, pivot tables)   
-- **Cloud Technologies:** AWS (Cloud Computing)
-- **E-commerce Platforms:** Shopify (store setup, SEO, product management)  
-- **Languages:**  
-- Spanish – Native  
-- English – Professional working proficiency  
-- German – Basic knowledge (A1)
+## Soft Skills
+::: {.callout-note title="Key Strengths"}
+**Leadership:** Natural ability to lead, guide, and motivate multidisciplinary teams toward common goals  
+**Analytical Thinking:** Strong capacity to break down complex problems and make data-driven decisions  
+**Adaptability:** Experience working in diverse environments, from hospitals in Colombia to academic and cultural settings in the U.S. and Canada  
+**Effective Communication:** Skilled in translating technical concepts into clear value propositions for diverse audiences  
+**Strategic Vision:** Combining business education (Marketing + MBA) with technical expertise (engineering) to design impactful solutions  
+:::
 
 
-### Professional Strengths
-- **Leadership:** Natural ability to lead, guide, and motivate multidisciplinary teams toward common goals  
-- **Analytical Thinking:** Strong capacity to break down complex problems and make data-driven decisions  
-- **Adaptability:** Experience working in diverse environments, from hospitals in Colombia to academic and cultural settings in the U.S. and Canada  
-- **Effective Communication:** Skilled in translating technical concepts into clear value propositions for diverse audiences  
-- **Strategic Vision:** Combining business education (Marketing + MBA) with technical expertise (engineering) to design impactful solutions  
-- **Lifelong Learning Mindset:** Passion for staying current, experimenting with new tools, and integrating data science into business and healthcare decision-making
+## Language Proficiency
+::: {.language-table}
+
+| Language | Level |
+|----------|-------|
+| ![Spanish flag](https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg){width=25 fig-alt="Spanish flag"} **Spanish** | Native |
+| ![UK flag](https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg){width=25 fig-alt="UK flag"} **English** | Professional working proficiency |
+| ![German flag](https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg){width=25 fig-alt="German flag"} **German** | Basic (A1) |
+:::
+
+
+

@@ -1,29 +1,58 @@
 ---
 format: html
+toc: true
+toc-location: left
+title: "Education"
 ---
-### MBA – Master of Business Administration  
-**University Canada West – Canada**  
-*2024 – Present*
+Download my detailed resume in PDF format: [Download PDF](Lucia-Ceron-Resume.pdf){.download-btn target="_blank"}
 
-Focused on data analysis, business strategy, leadership, e-commerce, marketing, and cloud computing.
+### MBA — Master of Business Administration
+**[University Canada West](https://www.ucanwest.ca/) — Vancouver,Canada**  
+*2024–Present*
 
----
-
-### Postgraduate Specialization in Marketing  
-**Universidad Autónoma de Occidente – Cali, Colombia**  
-*2021 – 2023*
-
-Training focused on consumer behavior analysis, brand positioning, sales management, and integrated commercial strategy design.
+**Focus:** data analysis, business strategy, leadership, e-commerce, marketing, cloud computing.  
+**Selected coursework:** Corporate Strategy, Financial Management, Business Analytics, Operations, Marketing Management.
 
 ---
 
-### Bachelor’s Degree in Biomedical Engineering  
-**Universidad Autónoma de Occidente – Cali, Colombia**  
-*2011 – 2016*
+### Postgraduate Specialization in Marketing
+**[Universidad Autónoma de Occidente](https://www.uao.edu.co/) — Cali, Colombia**  
+*2021–2023*
 
-- Academic Excellence Scholarship awarded for 10 consecutive semesters (cumulative GPA ≥ 4.0)  
-- Top Student Award (2013) – Full tuition scholarship for best GPA in the program  
-- Thesis project: Methodological framework for the safe management of radiation-emitting biomedical equipment at Hospital Universitario del Valle  
-- Speaker at national research events (COLSI)
+**Focus:** consumer behavior analysis, brand positioning, sales management, integrated commercial strategy design.
+
+---
+
+### Bachelor’s Degree in Biomedical Engineering
+**[Universidad Autónoma de Occidente](https://www.uao.edu.co/) — Cali, Colombia**  
+*2011–2016*
+
+**Thesis:** Methodological framework for the safe management of radiation-emitting biomedical equipment at Hospital Universitario del Valle.  
+**Activities:** Speaker at national research events ([REDCOLSI](https://web.redcolsi.org/)).
+
+**Honors & Awards:** Academic Excellence Scholarship (10 consecutive semesters; cumulative GPA ≥ 4.0).
+Top Student Award (2013) with a full tuition scholarship for best GPA in the program.
+
+---
+
+## Short Courses & Seminars
+
+- **Learning Across America: Boston** — [Borough of Manhattan Community College (BMCC)](https://www.bmcc.cuny.edu/)  
+  *2017 · Philadelphia, Pennsylvania, USA*  
+  Focus: conversation and writing about the history and culture of Boston, Massachusetts.
+
+- **Learning Across America: New York** — [Borough of Manhattan Community College (BMCC)](https://www.bmcc.cuny.edu/)  
+  *2017 · Philadelphia, Pennsylvania, USA*  
+  Focus: conversation and writing about the history and culture of New York, New York.
+
+- **Updates in Quality Management and Occupational Health & Safety**  
+  Focus: General System of Occupational Risks and occupational health provisions; updates to Quality Management Systems (**ISO 9001:2015**, **ISO 45001**).
+
+- **Certified Digital Marketing Associate**  
+  *Dec 2024*  
+  Focus: digital marketing fundamentals, channels, analytics, and advertising basics.
+
+- **AWS** — *In progress*  
+  Focus: AWS cloud foundations (compute, storage, networking, security) and core services.
 
 ---

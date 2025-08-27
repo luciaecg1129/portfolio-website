@@ -1,23 +1,63 @@
+---
+format: html
+title: "Projects"
+toc: true
+toc-location: left
+---
+
+Below are my main areas of interest and featured projects that combine data analysis, e-commerce, and cloud technologies.
+
+---
+
 ### **Business Analytics (2024)**  
 **Tools:** Tableau, SQL  
 
-- **Airbnb NYC Analysis:** Insights into rental patterns, pricing, and host performance across New York City.  
-- 🔗 [View project](https://github.com/luciaecg1129/tableau-business-analytics/)
+As part of my MBA analytics focus, I explored Airbnb’s New York City data to uncover trends in pricing, occupancy, and host performance. The dashboards show key insights: premium areas earning over $300 a night and Brooklyn’s competitive market averaging around $127.
+```{=html}
+<div id="airbnb-gallery" class="slider-container" role="region" aria-label="Airbnb gallery">
+  <img src="airbnb.png"   class="slider-image active" alt="Airbnb NYC dashboard">
+  <img src="brooklyn.png" class="slider-image"        alt="Brooklyn pricing visualization">
+  <img src="histogram.png"class="slider-image"        alt="Airbnb price histogram">
+
+  <div class="slider-controls">
+  <button type="button" class="prev" aria-label="Previous image" >&#10094; Prev</button>
+  <button type="button" class="next" aria-label="Next image">Next &#10095;</button>
+  </div>
+</div>
+```
+🔗For interactive dashboards and full analysis, visit the [View project](https://github.com/luciaecg1129/tableau-business-analytics/){target="_blank"}
 
 ---
 
 ### **E-commerce & SEO (2025)**  
-**Tools:** Shopify, SEO  
+**Tools:** Shopify  <img src="https://www.citypng.com/public/uploads/preview/shopify-bag-icon-symbol-logo-701751695132537nenecmhs0u.png" width="20" alt="Shopify logo">, SEO  
 
 - Created and optimized an online store for fermented culture products.  
 - Implemented keyword strategies and product tagging for better organic reach.  
-🔗 [View project](https://the-culture-hero.myshopify.com/collections/buy-fermentation-starter-cultures)
-> To access the store, use the password: **perla**.
+🔗 [View project](https://the-culture-hero.myshopify.com/collections/buy-fermentation-starter-cultures) To access the store, use the password: **perla**.
+
+- The image below is a brief visualization of the storefront I built:
+```{=html}
+<div id="shopify-gallery" class="slider-container" role="region" aria-label="Shopify gallery">
+  <img src="portada.png"     class="slider-image active" alt="Storefront home page overview">
+  <img src="collections.png" class="slider-image"        alt="Collections grid showing product categories">
+  <img src="fproducts.png"   class="slider-image"        alt="Featured products section with cards">
+  <img src="type.png"        class="slider-image"        alt="Collection by product type">
+  <img src="kombu.png"       class="slider-image"        alt="Product detail for kombucha culture">
+
+  <div class="slider-controls">
+  <button type="button" class="prev" aria-label="Previous image" >&#10094; Prev</button>
+  <button type="button" class="next" aria-label="Next image">Next &#10095;</button>
+  </div>
+</div>
+```
 
 ---
 
 ### **Cloud Computing Portfolio (2025)**  
-**Tools:** AWS, GitHub Pages ,SQL 
+**Tools:** AWS <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" width="30" alt="AWS logo">, 
+GitHub Pages <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" alt="GitHub logo">, 
+SQL <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" width="20" alt="SQL logo">
 
 - Built and deployed a professional data analyst portfolio using AWS services.  
 🔗 [View portfolio](https://luciaecg1129.github.io/data-analyst-lucia/)
@@ -25,7 +65,45 @@
 ---
 
 ### **Biomedical Image Processing (2015)**  
-**Tools:** MATLAB, medical imaging (CT scans)  
+**Tools:** MATLAB <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" width="22" alt="MATLAB logo">,  medical imaging (CT scans)  
 
 - Developed an algorithm for segmentation and volumetric quantification of liver tissue to assess organ donor suitability.  
 - Presented at a national research symposium (COLSI).
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const galleries = new Map();
+
+  // init each slider container on the page
+  document.querySelectorAll('.slider-container').forEach((root, idx) => {
+    // make sure it has an id
+    if (!root.id) root.id = `gallery-${idx + 1}`;
+
+    const slides = Array.from(root.querySelectorAll('.slider-image'));
+    let index = 0;
+
+    function show(i) {
+      slides.forEach((el, k) => el.classList.toggle('active', k === i));
+      index = i;
+    }
+    function next() { show((index + 1) % slides.length); }
+    function prev() { show((index - 1 + slides.length) % slides.length); }
+
+    // first render
+    show(0);
+
+    // wire only the buttons inside THIS gallery
+    root.querySelectorAll('.slider-controls .next').forEach(btn => {
+      btn.addEventListener('click', next);
+    });
+    root.querySelectorAll('.slider-controls .prev').forEach(btn => {
+      btn.addEventListener('click', prev);
+    });
+
+    // keep a reference if you ever want to control it programmatically
+    galleries.set(root.id, { next, prev, show });
+  });
+
+  // optionally expose for debugging in console:
+  window.__galleries = galleries;
+});
+</script>

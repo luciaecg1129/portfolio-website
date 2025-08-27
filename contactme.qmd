@@ -1,6 +1,10 @@
 ---
 format: html
+toc: true
+toc-location: left
+title: "Contact Me"
 ---
+
 I'm always open to connecting, whether it’s about collaboration, new opportunities, or just to exchange ideas.
 
 ```{=html}
