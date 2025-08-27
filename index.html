@@ -39,6 +39,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-cde8d5c4d968d295c62adf20e668265a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,12 +68,16 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<!-- fontawesome icons -->
+
+<script src="https://kit.fontawesome.com/1392a7030f.js" crossorigin="anonymous"></script>
 
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -88,28 +94,36 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html#about"> 
-<span class="menu-text">About me</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./index.html#education"> 
+    <a class="nav-link" href="./Education.html"> 
 <span class="menu-text">Education</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./index.html#experience"> 
-<span class="menu-text">Professional Experience</span></a>
+    <a class="nav-link" href="./experience.html"> 
+<span class="menu-text">Experience</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./index.html#skills"> 
-<span class="menu-text">Skills &amp; Strengths</span></a>
+    <a class="nav-link" href="./Skills.html"> 
+<span class="menu-text">Skills</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./index.html#interests"> 
+    <a class="nav-link" href="./Interests.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./index.html#contactme"> 
-<span class="menu-text">Contact me</span></a>
+    <a class="nav-link" href="./Leadership.html"> 
+<span class="menu-text">Leadership Experience</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./CV.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contactme.html"> 
+<span class="menu-text">Contact Me</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -122,292 +136,45 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-  <ul>
-  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">Hello! I’m Lucia Ceron</a></li>
-  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a>
-  <ul class="collapse">
-  <li><a href="#mba-master-of-business-administration" id="toc-mba-master-of-business-administration" class="nav-link" data-scroll-target="#mba-master-of-business-administration">MBA – Master of Business Administration</a></li>
-  <li><a href="#postgraduate-specialization-in-marketing" id="toc-postgraduate-specialization-in-marketing" class="nav-link" data-scroll-target="#postgraduate-specialization-in-marketing">Postgraduate Specialization in Marketing</a></li>
-  <li><a href="#bachelors-degree-in-biomedical-engineering" id="toc-bachelors-degree-in-biomedical-engineering" class="nav-link" data-scroll-target="#bachelors-degree-in-biomedical-engineering">Bachelor’s Degree in Biomedical Engineering</a></li>
-  </ul></li>
-  <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Professional Experience</a>
-  <ul class="collapse">
-  <li><a href="#medical-product-engineer-specialist" id="toc-medical-product-engineer-specialist" class="nav-link" data-scroll-target="#medical-product-engineer-specialist">Medical Product Engineer Specialist</a></li>
-  <li><a href="#biomedical-engineer" id="toc-biomedical-engineer" class="nav-link" data-scroll-target="#biomedical-engineer">Biomedical Engineer</a></li>
-  <li><a href="#fellow-in-biomedical-engineering" id="toc-fellow-in-biomedical-engineering" class="nav-link" data-scroll-target="#fellow-in-biomedical-engineering">Fellow in Biomedical Engineering</a></li>
-  <li><a href="#cultural-exchange---au-pair" id="toc-cultural-exchange---au-pair" class="nav-link" data-scroll-target="#cultural-exchange---au-pair">Cultural Exchange - Au Pair</a></li>
-  </ul></li>
-  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills &amp; Strengths</a>
-  <ul class="collapse">
-  <li><a href="#technical-skills" id="toc-technical-skills" class="nav-link" data-scroll-target="#technical-skills">Technical Skills</a></li>
-  <li><a href="#professional-strengths" id="toc-professional-strengths" class="nav-link" data-scroll-target="#professional-strengths">Professional Strengths</a></li>
-  </ul></li>
-  <li><a href="#interests" id="toc-interests" class="nav-link" data-scroll-target="#interests">Projects</a>
-  <ul class="collapse">
-  <li><a href="#business-analytics-2024" id="toc-business-analytics-2024" class="nav-link" data-scroll-target="#business-analytics-2024"><strong>Business Analytics (2024)</strong></a></li>
-  <li><a href="#e-commerce-seo-2025" id="toc-e-commerce-seo-2025" class="nav-link" data-scroll-target="#e-commerce-seo-2025"><strong>E-commerce &amp; SEO (2025)</strong></a></li>
-  <li><a href="#cloud-computing-portfolio-2025" id="toc-cloud-computing-portfolio-2025" class="nav-link" data-scroll-target="#cloud-computing-portfolio-2025"><strong>Cloud Computing Portfolio (2025)</strong></a></li>
-  <li><a href="#biomedical-image-processing-2015" id="toc-biomedical-image-processing-2015" class="nav-link" data-scroll-target="#biomedical-image-processing-2015"><strong>Biomedical Image Processing (2015)</strong></a></li>
-  </ul></li>
-  <li><a href="#contactme" id="toc-contactme" class="nav-link" data-scroll-target="#contactme">Contact me</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<div class="quarto-about-marquee">
-  <div class="about-image-container">
+<div class="quarto-about-trestles">
+  <div class="about-entity">
     <img src="profile.png" class="about-image
-  round " style="height: 10em; width: 10em;">
-  </div>
-  <div class="about-contents">
-    <header id="title-block-header" class="quarto-title-block default">
+  round " style="height: 15em; width: 15em;">
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Lucia Ceron - MBA Portfolio</h1>
 </div>
 <div class="quarto-title-meta">
   </div>
-</header> <main class="content" id="quarto-document-content">
-
-<section id="about" class="level2">
-<h2 data-anchor-id="about">Hello! I’m Lucia Ceron</h2>
-<p>Welcome to my portfolio website, here I want to share a little bit about me and my background in technology, business, and healthcare. I am an MBA student at University Canada West in Canada, originally from Colombia. My academic background combines a Bachelor’s degree in Biomedical Engineering with a postgraduate specialization in Marketing.</p>
-<p>After graduating, I participated in a cultural exchange program in the United States, an experience that enhanced my adaptability, independence, and communication skills. I then worked in Colombian clinics and hospitals as a Biomedical Engineer, followed by over four years as a biomedical product engineer in the southwestern region of Colombia, specializing in commercial operations for specialized medical equipment.</p>
-<p>Currently, while pursuing my MBA, I am further strengthening my skills in:</p>
-<ul>
-<li><strong>Leadership</strong></li>
-<li><strong>Business Strategy</strong></li>
-<li><strong>Data Analysis</strong></li>
-<li><strong>Marketing</strong></li>
-<li><strong>E-Commerce</strong></li>
-</ul>
-<p>I am passionate about continuously learning, turning innovative ideas into action, and leading diverse teams with purpose and creativity. My goal is to integrate technology, marketing, and analytics to address real-world challenges in either the technology or healthcare industries.</p>
-<p>Feel free to explore the rest of my website to learn more about me. Please reach out if you would like to connect!</p>
-</section>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<section id="mba-master-of-business-administration" class="level3">
-<h3 data-anchor-id="mba-master-of-business-administration">MBA – Master of Business Administration</h3>
-<p><strong>University Canada West – Canada</strong><br>
-<em>2024 – Present</em></p>
-<p>Focused on data analysis, business strategy, leadership, e-commerce, marketing, and cloud computing.</p>
-<hr>
-</section>
-<section id="postgraduate-specialization-in-marketing" class="level3">
-<h3 data-anchor-id="postgraduate-specialization-in-marketing">Postgraduate Specialization in Marketing</h3>
-<p><strong>Universidad Autónoma de Occidente – Cali, Colombia</strong><br>
-<em>2021 – 2023</em></p>
-<p>Training focused on consumer behavior analysis, brand positioning, sales management, and integrated commercial strategy design.</p>
-<hr>
-</section>
-<section id="bachelors-degree-in-biomedical-engineering" class="level3">
-<h3 data-anchor-id="bachelors-degree-in-biomedical-engineering">Bachelor’s Degree in Biomedical Engineering</h3>
-<p><strong>Universidad Autónoma de Occidente – Cali, Colombia</strong><br>
-<em>2011 – 2016</em></p>
-<ul>
-<li>Academic Excellence Scholarship awarded for 10 consecutive semesters (cumulative GPA ≥ 4.0)<br>
-</li>
-<li>Top Student Award (2013) – Full tuition scholarship for best GPA in the program<br>
-</li>
-<li>Thesis project: Methodological framework for the safe management of radiation-emitting biomedical equipment at Hospital Universitario del Valle<br>
-</li>
-<li>Speaker at national research events (COLSI)</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="experience" class="level2">
-<h2 data-anchor-id="experience">Professional Experience</h2>
-<section id="medical-product-engineer-specialist" class="level3">
-<h3 data-anchor-id="medical-product-engineer-specialist">Medical Product Engineer Specialist</h3>
-<p><strong>Instrumentación S.A. - Colombia</strong><br>
-<em>Aug.&nbsp;2019 - Jun.&nbsp;2024</em></p>
-<p>Responsible for the commercial area for southwestern Colombia, focused on specialized biomedical devices.</p>
-<p><strong>Accomplishments and key functions:</strong></p>
-<ul>
-<li>B2B technical sales management in health sector institutions.<br>
-</li>
-<li>Product presentation and technical demonstrations to clinical teams.<br>
-</li>
-<li>Active participation in bids, contractual processes and post-sales follow-up.<br>
-</li>
-<li>Meeting and exceeding established commercial quotas (Q) for four consecutive years: 2020, 2021, 2022 and 2023.<br>
-</li>
-<li>Coordination of deliveries, installation and technical support of advanced biomedical equipment.<br>
-</li>
-<li>Consolidation of strategic relationships with decision makers in hospitals and clinics.</li>
-</ul>
-<hr>
-</section>
-<section id="biomedical-engineer" class="level3">
-<h3 data-anchor-id="biomedical-engineer">Biomedical Engineer</h3>
-<p><strong>Bioengineering L.A. - Colombia</strong><br>
-<em>May. 2018 - May. 2019</em></p>
-<p>In charge of administrative and technical management of medical equipment in clinical centers.</p>
-<p><strong>Outstanding functions:</strong></p>
-<ul>
-<li>Preventive and corrective maintenance of biomedical equipment.<br>
-</li>
-<li>Updating of the physical-functional inventory of hospital technology.<br>
-</li>
-<li>Attention to audits and inspections by public health entities.</li>
-</ul>
-<hr>
-</section>
-<section id="fellow-in-biomedical-engineering" class="level3">
-<h3 data-anchor-id="fellow-in-biomedical-engineering">Fellow in Biomedical Engineering</h3>
-<p><strong>Hospital Universitario del Valle “Evaristo García” - Colombia</strong><br>
-<em>Jul.&nbsp;2015 - Sep.&nbsp;2016</em></p>
-<p>Experience in radiotherapy and hospital technology management.</p>
-<p><strong>Key contributions:</strong></p>
-<ul>
-<li>Elaboration of maintenance protocols and technical life sheets.<br>
-</li>
-<li>Documentation for licensing of radiation emitting equipment.<br>
-</li>
-<li>Participation in technovigilance management and technical quality control.</li>
-</ul>
-<hr>
-</section>
-<section id="cultural-exchange---au-pair" class="level3">
-<h3 data-anchor-id="cultural-exchange---au-pair">Cultural Exchange - Au Pair</h3>
-<p><strong>Philadelphia, USA</strong><br>
-<em>Oct.&nbsp;2016 - Oct.&nbsp;2017</em></p>
-<p>Participation in a cultural exchange program in the United States.</p>
-<p><strong>Strengths developed:</strong></p>
-<ul>
-<li>Cross-cultural communication.<br>
-</li>
-<li>Adaptability in multicultural environments.<br>
-</li>
-<li>Independence and problem solving in new contexts.</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="skills" class="level2">
-<h2 data-anchor-id="skills">Skills &amp; Strengths</h2>
-<p>The world of technology, data, and marketing is constantly evolving, and I am passionate about staying current, experimenting with new tools, and combining technical capabilities with strategic vision. These are some of the skills I have developed and continue to strengthen:</p>
-<section id="technical-skills" class="level3">
-<h3 data-anchor-id="technical-skills">Technical Skills</h3>
-<ul>
-<li><strong>Programming &amp; Simulation:</strong> MATLAB, JavaScript<br>
-</li>
-<li><strong>Design &amp; Engineering:</strong> SolidWorks<br>
-</li>
-<li><strong>Databases:</strong> SQL<br>
-</li>
-<li><strong>Data Analysis &amp; Visualization:</strong> Tableau, Power BI, Excel (advanced functions, dashboards, pivot tables)<br>
-</li>
-<li><strong>Cloud Technologies:</strong> AWS (Cloud Computing)</li>
-<li><strong>E-commerce Platforms:</strong> Shopify (store setup, SEO, product management)<br>
-</li>
-<li><strong>Languages:</strong><br>
-</li>
-<li>Spanish – Native<br>
-</li>
-<li>English – Professional working proficiency<br>
-</li>
-<li>German – Basic knowledge (A1)</li>
-</ul>
-</section>
-<section id="professional-strengths" class="level3">
-<h3 data-anchor-id="professional-strengths">Professional Strengths</h3>
-<ul>
-<li><strong>Leadership:</strong> Natural ability to lead, guide, and motivate multidisciplinary teams toward common goals<br>
-</li>
-<li><strong>Analytical Thinking:</strong> Strong capacity to break down complex problems and make data-driven decisions<br>
-</li>
-<li><strong>Adaptability:</strong> Experience working in diverse environments, from hospitals in Colombia to academic and cultural settings in the U.S. and Canada<br>
-</li>
-<li><strong>Effective Communication:</strong> Skilled in translating technical concepts into clear value propositions for diverse audiences<br>
-</li>
-<li><strong>Strategic Vision:</strong> Combining business education (Marketing + MBA) with technical expertise (engineering) to design impactful solutions<br>
-</li>
-<li><strong>Lifelong Learning Mindset:</strong> Passion for staying current, experimenting with new tools, and integrating data science into business and healthcare decision-making</li>
-</ul>
-</section>
-</section>
-<section id="interests" class="level2">
-<h2 data-anchor-id="interests">Projects</h2>
-<section id="business-analytics-2024" class="level3">
-<h3 data-anchor-id="business-analytics-2024"><strong>Business Analytics (2024)</strong></h3>
-<p><strong>Tools:</strong> Tableau, SQL</p>
-<ul>
-<li><strong>Airbnb NYC Analysis:</strong> Insights into rental patterns, pricing, and host performance across New York City.<br>
-</li>
-<li>🔗 <a href="https://github.com/luciaecg1129/tableau-business-analytics/">View project</a></li>
-</ul>
-<hr>
-</section>
-<section id="e-commerce-seo-2025" class="level3">
-<h3 data-anchor-id="e-commerce-seo-2025"><strong>E-commerce &amp; SEO (2025)</strong></h3>
-<p><strong>Tools:</strong> Shopify, SEO</p>
-<ul>
-<li>Created and optimized an online store for fermented culture products.<br>
-</li>
-<li>Implemented keyword strategies and product tagging for better organic reach.<br>
-🔗 <a href="https://the-culture-hero.myshopify.com/collections/buy-fermentation-starter-cultures">View project</a> &gt; To access the store, use the password: <strong>perla</strong>.</li>
-</ul>
-<hr>
-</section>
-<section id="cloud-computing-portfolio-2025" class="level3">
-<h3 data-anchor-id="cloud-computing-portfolio-2025"><strong>Cloud Computing Portfolio (2025)</strong></h3>
-<p><strong>Tools:</strong> AWS, GitHub Pages ,SQL</p>
-<ul>
-<li>Built and deployed a professional data analyst portfolio using AWS services.<br>
-🔗 <a href="https://luciaecg1129.github.io/data-analyst-lucia/">View portfolio</a></li>
-</ul>
-<hr>
-</section>
-<section id="biomedical-image-processing-2015" class="level3">
-<h3 data-anchor-id="biomedical-image-processing-2015"><strong>Biomedical Image Processing (2015)</strong></h3>
-<p><strong>Tools:</strong> MATLAB, medical imaging (CT scans)</p>
-<ul>
-<li>Developed an algorithm for segmentation and volumetric quantification of liver tissue to assess organ donor suitability.<br>
-</li>
-<li>Presented at a national research symposium (COLSI).</li>
-</ul>
-</section>
-</section>
-<section id="contactme" class="level2">
-<h2 data-anchor-id="contactme">Contact me</h2>
-<p>I’m always open to connecting, whether it’s about collaboration, new opportunities, or just to exchange ideas.</p>
-<section class="contact-section">
-  <div class="contact-info">
-    <p><strong>Email:</strong> luciaecg1129@gmail.com</p>
-    <p><strong>Phone:</strong> +1 23699888146</p>
-    <p><strong>Location:</strong> Currently in Canada | Originally from Colombia</p>
-    <div class="social-links">
-  <a href="https://www.linkedin.com/in/tu-linkedin" target="_blank">
-    <img src="https://img.icons8.com/?size=100&amp;id=8808&amp;format=png&amp;color=000000" alt="LinkedIn" width="24">
+</header>
+    <div class="about-links">
+  <a href="https://www.linkedin.com/in/lucia-ceron-b06749317/" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
   </a>
-  <a href="https://github.com/luciaecg1129" target="_blank">
-    <img src="https://img.icons8.com/?size=100&amp;id=12599&amp;format=png&amp;color=000000" width="24" alt="GitHub">
+  <a href="https://github.com/luciaecg1129" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">GitHub</span>
   </a>
 </div>
-  </div> 
-<!-- <div class="social-links">
-      <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733547.png" alt="Facebook"></a>
-      <a href="https://x.com/LuciaCeron9"><img src="https://cdn-icons-png.flaticon.com/24/733/733579.png" alt="X"></a>
-      <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733558.png" alt="GitHub"></a>
-    </div>
--->
-<form class="contact-form">
-<input type="text" placeholder="Your Name" required=""> <input type="email" placeholder="Email Address" required=""> <input type="text" placeholder="Subject">
-<textarea placeholder="Message" required=""></textarea>
-<button type="submit">
-Send Message
-</button>
-</form>
-</section>
-
-
-</section>
-</main> 
   </div>
+  <div class="about-contents"><main class="content" id="quarto-document-content">
+<section id="hey-im-happy-youre-here" class="level1">
+<h1>Hey, I’m happy you’re here</h1>
+<section id="thanks-for-stopping-by" class="level3" style="max-width:720px; margin:0 auto;">
+<h3 data-anchor-id="thanks-for-stopping-by">Thanks for stopping by!</h3>
+<p>
+I blend marketing and engineering to turn data into results. Explore my work and see what we could build together.
+</p>
+<p>Take a look at some of my <a href="./Interests.html">projects</a>.</p>
+<p>Get in touch by <a href="./contactme.html">Sending me a note</a> <i class="fa-solid fa-paper-plane" aria-label="paper-plane"></i></p>
+
+
+</section>
+</section>
+</main></div>
 </div>
  <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -489,6 +256,11 @@ Send Message
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -803,8 +575,28 @@ Send Message
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2025 Lucia Ceron ∙ Made with <a href="https://quarto.org">Quarto</a></p>
+</div>   
+    <div class="nav-footer-center">
+<p><a class="link-dark me-1" href="https://www.linkedin.com/feed/" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin" aria-label="linkedin"></i></a> <a class="link-dark me-1" href="https://github.com/luciaecg1129" title="github" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-label="github"></i></a></p>
+</div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./contactme.html">
+<p>Contact</p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
