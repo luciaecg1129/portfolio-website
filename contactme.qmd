@@ -14,7 +14,7 @@ I'm always open to connecting, whether it’s about collaboration, new opportuni
     <p><strong>Phone:</strong> +1 23699888146</p>
     <p><strong>Location:</strong> Currently in Canada | Originally from Colombia</p>
     <div class="social-links">
-  <a href="https://www.linkedin.com/in/tu-linkedin" target="_blank">
+  <a href="https://www.linkedin.com/in/lucia-ceron-b06749317/" target="_blank">
     <img src="https://img.icons8.com/?size=100&id=8808&format=png&color=000000" alt="LinkedIn" width="24">
   </a>
   <a href="https://github.com/luciaecg1129" target="_blank">

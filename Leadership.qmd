@@ -15,7 +15,7 @@ Beyond academics and professional projects, I have been committed to initiatives
 During the COVID-19 pandemic, I led a team of engineers to coordinate, train, and oversee the installation of approximately 300 mechanical ventilators across hospitals in multiple regions of Colombia. As the project lead, I managed planning, resource allocation, and on-site execution, ensuring that life-saving equipment reached medical teams quickly and effectively .
 
 Figure 1: Ventilator Deployment Project During COVID-19
-::: {#fig-ventilators}
+
 {{< video https://www.youtube.com/embed/2nVP1ckKF_0 >}}
 
 _Note: The video "Ventilator Deployment Project During COVID-19" (InformativoSinCensura Popayán, 2020)_
